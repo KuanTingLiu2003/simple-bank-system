@@ -7,7 +7,7 @@ This is a simple Java console-based banking system.
   and VIP account. The interest rate of Standard Account and VIP Account are 0.005 and 0.01
   for each month, respectively.
 
-'''terminal
+```
 *** Menu ***
 1. Create Account
 2. Display
@@ -26,7 +26,7 @@ Enter name: Mike
 Enter passcode: 1234
 Starting balance: 100
 Account Created!!
-'''
+```
 . Display
 Users should be able to see the information of a particular account by giving its name.
 You don't need passcode to display.
