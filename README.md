@@ -1,7 +1,7 @@
 # Simple Bank System
 This is a simple Java console-based banking system.
 # Functionality
-- Create Account\
+- **Create Account**\
   Users should be able to create a bank account by giving an account name, a 4 digits number
   passcode and its initial balance. There will be two categories of account: Standard Account
   and VIP account. The interest rate of Standard Account and VIP Account are 0.005 and 0.01
@@ -26,7 +26,7 @@ Enter passcode: 1234
 Starting balance: 100
 Account Created!!
 ```
-- Display\
+- **Display**\
   Users should be able to see the information of a particular account by giving its name.
   You don't need passcode to display.
 ```
@@ -46,7 +46,7 @@ Name: Mike
 Account Type: Standard
 Balance: 100.0
 ```
-- Withdraw\
+- **Withdraw**\
   Users should be able to withdraw money from a particular account by giving its name, the
   passcode and the amount of money to withdraw.
   Passcode is required to withdraw the money.
@@ -68,7 +68,7 @@ Enter amount to withdraw: 50
 Name: Mike
 Balance: 50.0
 ```
-- Deposit\
+- **Deposit**\
   Users should be able to deposit money to a particular account by giving its name and the
   amount of money.
   You don't need passcode to deposit.
@@ -89,7 +89,7 @@ Enter amount to deposit: 100
 Name: Mike
 Balance: 150.0
 ```
-- Display All\
+- **Display All**\
   Display all the previously created accounts.
   You don't need passcode to display.
 ```
@@ -114,7 +114,7 @@ Name: Andy
 Account Type: VIP
 Balance: 1000.0
 ```
-- Remove Account\
+- **Remove Account**\
   Remove an account by the given name and the passcode.
   Passcode is required to remove the account.
 ```
@@ -133,7 +133,7 @@ Enter your name: Andy
 Enter passcode: 9999
 Account has been removed!!
 ```
-- Calculate Interest\
+- **Calculate Interest**\
   Calcualte the expected interest (Not the total balance) of a particular account by giving its
   name and the number of months.
   The interest type is different depending on the account type
@@ -159,7 +159,7 @@ Enter your name: Mike
 Enter the number of months: 10
 The expected interest is: 8
 ```
-- Exit\
+- **Exit**\
   Exit the loop and terminate your program with a proper appreciation message.
 ```
 *** Menu ***
