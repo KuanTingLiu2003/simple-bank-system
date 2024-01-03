@@ -1,12 +1,13 @@
 # Simple Bank System
 This is a simple Java console-based banking system.
 # Functionality
-. Create Account
-Users should be able to create a bank account by giving an account name, a 4 digits number
-passcode and its initial balance. There will be two categories of account: Standard Account
-and VIP account. The interest rate of Standard Account and VIP Account are 0.005 and 0.01
-for each month, respectively.
-'''
+- Create Account
+  Users should be able to create a bank account by giving an account name, a 4 digits number
+  passcode and its initial balance. There will be two categories of account: Standard Account
+  and VIP account. The interest rate of Standard Account and VIP Account are 0.005 and 0.01
+  for each month, respectively.
+
+'''json
 *** Menu ***
 1. Create Account
 2. Display
